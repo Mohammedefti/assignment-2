@@ -1,0 +1,389 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.display{
+    display: hidden;
+}
+
+/* Shared style */
+.color{
+    color: white;
+}
+
+/* Banner */
+.banner-container{
+    width: 90%;
+    margin: 0 auto;
+    height: 450px;
+    display: flex;
+    /* justify-content: space-between; */
+    border: 2px solid red;
+    margin-bottom: 50px;
+}
+.banner-text-container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid red;
+    /* background-color: black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner-text-container h1{
+    /* color: white; */
+    margin-top: 50px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    
+}
+.banner-button{
+    margin-top: 30px;
+}
+.banner-button .btn-1{
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    background-color: orangered;
+}
+.banner-button .btn-2{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    border: white;
+}
+
+.banner-img-container{
+    border: 2px solid red;
+    
+}
+
+
+#videos{
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: -370px;
+}
+#published-video{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#workout-videos{
+    padding: 15px 15px;
+    font-size: 1rem;
+    font-weight: 180;
+    margin-left: 120px;
+    /* border-top: -100px; */
+}
+#t-published-video{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.banner-img-container img{
+    height: 100%;
+}
+
+
+/* nav-bar */
+.nav-bar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+
+.nav-options{
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-around;
+    gap:3rem;
+    border-radius: 20px;
+    
+    
+}
+
+.nav-options button{
+    width: 50px;
+    border-radius: 10px;
+    /* margin-left: 1px; */
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+}
+
+
+/* Second section */
+.second-section,
+.creative-section{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-bottom: 30px;
+
+}
+
+.second-section-title{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    margin-bottom: 20px;
+}
+
+.second-img-container{
+    width: 90%;
+    margin:0 auto;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-one ,
+.img-two,
+.img-three,
+.img-four{
+    width: 20%;
+    /* border-radius: 50%; */
+    
+/* border: 2px red solid; */
+}
+
+.img-one img, .img-two img,
+.img-three img,
+.img-four img{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    /* outline: 90% gray; */
+}
+
+.img-content, .img-content-1,
+ .img-content-2,
+.img-content-3{
+    width: 100%;
+    text-align: center;
+    
+    /* border: 2px solid red; */
+}
+
+
+/* Third Section */
+.third-section{
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    border: 2px solid red;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: gray; */
+   
+
+}
+
+.third-text-container{
+    border: 2px solid red;
+    width: 90%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 180px;
+}
+.third-text-container h1 ,
+.third-text-container p{
+    margin-bottom: 20px;
+}
+.third-text-container p{
+    margin-left: 80px;
+}
+.th-btn{
+    /* text-align: start; */
+    width: 150px;
+    height: 30px;
+    /* background-color: #ffff; */
+    margin-left: -40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: orangered;
+}
+
+
+.third-img-container img{
+    width: 45%;
+    height:70%;
+    border: 2px solid red;
+    margin-left: 250px;
+    border-radius: 8px;
+}
+
+/* Bmi calculate */
+.bmi-calculate-title{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bmi-container{
+    border: 2px solid red;
+    margin-bottom: 40px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-chart{
+    width: 40%;
+    text-align: center;
+    border: 2px solid red;
+}
+.calculate-your-chart{
+    width: 45%;
+    border: 2px solid red;
+}
+.calculate-your-chart h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.calculate-your-chart p{
+    margin-bottom: 20px;
+}
+#design{
+    width: 40%;
+    height: 8%;
+    margin:5px 5px;
+    border-radius: 5px;
+    /* border: white; */
+}
+.last{
+margin: 5px 5px;   
+width:83%;
+height: 8%; 
+}
+.bmi-btn{
+    margin-top: 15px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color:orangered;
+}
+
+/* our Team */
+.row img ,
+.row-1 img{
+    width: 45%;
+    height: 45%;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.row,.row-1{
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* margin-bottom: 10px; */
+}
+.second-last-section{
+    /* width: 100%; */
+    /* height: 400px; */
+    border: 2px solid red;
+}
+.second-last-title{
+    text-align: center;
+    border: 2px solid red;
+}
+
+.second-last-img-container{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    border: 2px solid red;
+}
+
+.footer-section{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+.footer-first-section,
+.footer-second-section,
+.footer-last-section
+{
+    margin-top: 30px;
+}
+
+.footer-first-section h1{
+    color: orangered;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.footer-second-section h3,
+.footer-last-section h3{
+    margin-bottom: 20px;
+}
+.footer-second-section p,
+.footer-last-section p{
+    margin-bottom: 10px;
+}
+.last-footer{
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 10px;
+}
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .second-section
+    {
+        display: grid;
+    
+    }
+    .second-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: center; */
+        /* align-content: center; */
+        
+        
+    }
+    .img-one img{
+        width: 90%;
+        margin: 0 auto;
+        border: 2px solisd red;
+    }
+     
+}
