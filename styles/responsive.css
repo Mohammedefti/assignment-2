@@ -1,0 +1,80 @@
+@media screen and (max-width:576px) {
+    /* nav-bar */
+
+    .nav-bar{
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    .nav-hamburger-menu{
+        display: block;
+    }
+    .nav-options{
+        display: none;
+    }
+
+    /* banner */
+
+    .banner-container 
+    {
+        flex-direction: column;
+        /* margin: 0 0; */
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .banner-text-container{
+        width: 100%;
+    }
+    .banner-text-container h1{
+        margin-top: 10px;
+    }
+    
+     .banner-img-container img{
+        /* width: 100%; */
+        height: 100%;
+     }
+     .banner-img-container {
+        /* width: 100%; */
+        height: 70%;
+     }
+     #videos{
+        padding: 15px 25px;
+        font-size: .8rem;
+        margin-left: 50px;
+        margin-top: -500px;
+     }
+
+     #published-video{
+        font-size: 1rem;
+    }
+    #workout-videos{
+        padding: 15px 20px;
+        font-size: .8rem;
+        font-weight: 180px;
+    }
+    #t-published-video{
+        font-size: 1rem;
+    }
+
+
+    .second-section
+    {
+        padding-top: 250px;
+        display: grid;
+        display: flex;
+    
+    }
+    .second-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: center; */
+        /* align-content: center; */
+        
+        
+    }
+    .img-one img{
+        width: 90%;
+        margin: 0 auto;
+        border: 2px solid red;
+    }
+     
+}
