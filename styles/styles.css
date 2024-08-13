@@ -216,14 +216,14 @@ body{
 .img-four{
     width: 20%;
     /* border-radius: 50%; */
-    
+    /* outline-color: rgb(25, 25, 25); */
 border: 2px red solid;
 }
 
 .img-one img, .img-two img,
 .img-three img,
 .img-four img{
-    border: 2px solid red;
+    border: 4px solid rgb( 25,25,25);
     border-radius: 50%;
 
     align-items: center;

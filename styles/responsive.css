@@ -73,10 +73,16 @@
         
         
     }
-    .img-one img{
-        width: 90%;
-        margin: 0 auto;
-        border: 2px solid red;
+    .img-one, .img-two,
+    .img-three, .img-four{
+        width: 100%;
+        margin-bottom: 10px;
     }
+    .img-one img, .img-two img,
+.img-three img,
+.img-four img{
+    width: 50%;
+    display: block;
+}
      
 }
