@@ -84,5 +84,30 @@
     width: 50%;
     display: block;
 }
-     
+
+/* third section */
+     .third-section{
+        flex-direction: column;
+        height: 531px;
+        border-radius: 20px;
+     }
+
+     .th-btn{
+        display: block;
+        /* border: 2px solid white; */
+        width: 200px;
+        height: 45px;
+        margin-left: 100px;
+        border-radius: 35px;
+        font-size: 1.1rem;
+
+     }
+
+     .third-img-container img{
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+
+     }
+
 }

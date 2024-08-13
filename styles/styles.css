@@ -21,6 +21,9 @@ body{
 .color-2{
     color: rgb(128, 128,128);
 }
+.font{
+    font-family:"Inter",sans-serif;
+}
 /* Banner */
 .first-section{
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
@@ -189,7 +192,7 @@ body{
 .creative-section{
     width: 90%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 30px;
 
 }
@@ -198,14 +201,14 @@ body{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     margin-bottom: 20px;
 }
 
 .second-img-container{
     width: 90%;
     margin:0 auto;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -217,7 +220,7 @@ body{
     width: 20%;
     /* border-radius: 50%; */
     /* outline-color: rgb(25, 25, 25); */
-border: 2px red solid;
+/* border: 2px red solid; */
 }
 
 .img-one img, .img-two img,
@@ -238,7 +241,7 @@ border: 2px red solid;
     width: 100%;
     text-align: center;
     
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 
@@ -253,7 +256,7 @@ border: 2px red solid;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: gray; */
+    background-color: rgb(24, 24, 24)
    
 
 }
