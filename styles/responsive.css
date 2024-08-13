@@ -30,6 +30,7 @@
     
      .banner-img-container img{
         /* width: 100%; */
+        margin-left: 90px;
         height: 100%;
      }
      .banner-img-container {
@@ -37,30 +38,31 @@
         height: 70%;
      }
      #videos{
-        padding: 15px 25px;
+        padding: 10px 15px;
         font-size: .8rem;
-        margin-left: 50px;
-        margin-top: -500px;
+        margin-left: -250px;
+        margin-top: 128px;
      }
 
      #published-video{
         font-size: 1rem;
     }
     #workout-videos{
-        padding: 15px 20px;
+        padding: 10px 7px;
         font-size: .8rem;
-        font-weight: 180px;
+        margin-left: -90px;
+        margin-top: 20px;
     }
     #t-published-video{
         font-size: 1rem;
     }
 
-
+/* second section  */
     .second-section
     {
-        padding-top: 250px;
-        display: grid;
+        margin-top: 250px;
         display: flex;
+        flex-direction: column;
     
     }
     .second-img-container{

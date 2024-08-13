@@ -15,7 +15,12 @@ body{
 
 
 /* Shared style */
-
+.color-1{
+    color: white;
+}
+.color-2{
+    color: rgb(128, 128,128);
+}
 /* Banner */
 .first-section{
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
@@ -80,21 +85,23 @@ body{
 }
 
 .banner-img-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin: 0 auto; */    
 }
 .banner-img-container img{
-    border: 2px solid red;
-    display: block;
-    margin: auto;   
+    /* border: 2px solid red; */
+    /* display: block; */
+    margin-left: 250px;   
 }
 
 
 #videos{
+    position: absolute;
     padding: 15px 30px;
     font-size: 1rem;
     font-weight: 200;
-    margin-left: -370px;
+    margin-left: -360px;
+    margin-top: 330px;
     /* background-color: transparent ; */
     background-color:rgba(31, 31, 31, 0.534);
     color: white;
@@ -109,11 +116,13 @@ body{
     padding: 15px 15px;
     font-size: 1rem;
     font-weight: 180;
-    margin-left: 120px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 90px;
     color: white;
     border-radius: 10px;
     border: none;
-    background-color: rgba(57, 57, 57, 0.966);
+    background-color: rgba(56, 56, 56, 0.884);
 }
 #t-published-video{
     font-size: 1.5rem;
@@ -180,7 +189,7 @@ body{
 .creative-section{
     width: 90%;
     margin: 0 auto;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-bottom: 30px;
 
 }
@@ -189,14 +198,14 @@ body{
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    /* border: 2px solid rebeccapurple; */
+    border: 2px solid rebeccapurple;
     margin-bottom: 20px;
 }
 
 .second-img-container{
     width: 90%;
     margin:0 auto;
-    /* border: 2px solid aqua; */
+    border: 2px solid aqua;
     display: flex;
     justify-content: space-evenly;
 }
@@ -208,13 +217,13 @@ body{
     width: 20%;
     /* border-radius: 50%; */
     
-/* border: 2px red solid; */
+border: 2px red solid;
 }
 
 .img-one img, .img-two img,
 .img-three img,
 .img-four img{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 50%;
 
     align-items: center;
@@ -229,7 +238,7 @@ body{
     width: 100%;
     text-align: center;
     
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 
