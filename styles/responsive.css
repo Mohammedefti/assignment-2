@@ -110,4 +110,9 @@
 
      }
 
+     /* Bmi calculate */
+     .bmi-calculate-title{
+        text-align: left;
+     }
+
 }
