@@ -321,9 +321,10 @@ table, th,td{
 .bmi-calculate-title h1{
     font-weight: bolder;
     margin-bottom: 10px;
+    /* border: 2px solid red; */
 }
 .bmi-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgb(34, 34,34);
     margin-bottom: 40px;
     height: 350px;
@@ -334,14 +335,17 @@ table, th,td{
     width: 40%;
     text-align: center;
     margin-top: 25px;
-   /* border: 2px solid red; */
+   border: 2px solid red;
+}
+.bmi-chart h2{
+    /* border: 2px solid red; */
 }
 .bmi-chart table{
     margin-left: 150px;
     margin-top: 40px;
     border-collapse: collapse ;
     width: 80%;
-    /* border: 1px solid gray; */
+    border: 2px solid red;
 }
 .bmi-chart table tr{
     /* height: 30px; */
@@ -351,14 +355,14 @@ table, th,td{
     padding-left:10px ;
     padding-top: 6px;
     padding-bottom: 4px;
-
+    border-color: rgb(56,56,56);
     text-align: left;
 }
 
 
 .calculate-your-chart{
     width: 45%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .calculate-your-chart h2{
     margin-top: 25px;
@@ -377,9 +381,9 @@ table, th,td{
     /* border: white; */
     padding: 5px;
 }
-#last1{
+.last1{
     margin:5px 5px;
-    width: 40%;
+    width: 41%;
     height: 10%;
     padding: 10px;
     background-color: rgb(56,56,56);
@@ -394,7 +398,7 @@ table, th,td{
 
 .last{
 margin: 5px 5px;   
-width:85%;
+width:85.5%;
 height: 10%; 
 padding: 10px;
 background-color: rgb(56,56,56);

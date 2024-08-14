@@ -31,10 +31,12 @@
      .banner-img-container img{
         /* width: 100%; */
         margin-left: 90px;
+        border: 2px solid red;
         height: 100%;
      }
      .banner-img-container {
         /* width: 100%; */
+        border: 2px solid red;
         height: 70%;
      }
      #videos{
@@ -115,4 +117,56 @@
         text-align: left;
      }
 
-}
+     .bmi-container{
+        height: 700px;
+        flex-direction: column;
+        justify-content: center;
+     }
+     .bmi-chart{
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: 60px;
+     }
+     .bmi-chart table{
+        margin-top: 10px;
+        margin-left: 20px;
+        /* width: 80%; */
+     }
+     .bmi-chart h2{
+        margin-left: 15px;
+        width: 100%;
+        /* display: block; */
+        /* height: 50px; */
+        text-align: left;
+     }
+     .calculate-your-chart {
+        width: 100%;
+     }
+     .calculate-your-chart h2,
+     .calculate-your-chart p{
+        margin-left: 10px;
+     }
+     #design{
+        width: 45%;
+    height: 14%;
+     }
+     .last1{
+        width: 47%;
+    height: 17%;
+
+     }
+     .last{
+        width: 97%;
+    height: 17%;
+
+     }
+     .bmi-btn{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 200px;
+        height: 45px;
+        border-radius: 20px;
+        font-size: 1rem;
+     }
+    
+    }
