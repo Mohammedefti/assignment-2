@@ -169,4 +169,10 @@
         font-size: 1rem;
      }
     
+
+     /* footer section */
+     .footer-section{
+        flex-direction: column;
+        height: 500px;
+     }
     }
