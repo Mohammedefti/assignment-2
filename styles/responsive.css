@@ -175,6 +175,6 @@
      /* footer section */
      .footer-section{
         flex-direction: column;
-        height: 500px;
+        /* height: 500px; */
      }
     }

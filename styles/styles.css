@@ -509,7 +509,7 @@ border-radius: 5px;
     background-color: rgb(25,25,25);
 }
 .footer-section{
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     justify-content: space-around;
     /* border: 2px solid red; */
